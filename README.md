@@ -22,4 +22,5 @@ A marketing agency wants me to make modify their website's homepage code so that
 * [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 ## Images
-![Screenshot of Webpage] (./Develop/assets/images/01-html-css-git-homework-demo.png)
+<img src="./Develop/assets/images/01-html-css-git-homework-demo.png" alt="Screenshot of Webpage">
+
