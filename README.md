@@ -14,12 +14,12 @@ A marketing agency wants me to make modify their website's homepage code so that
 *Alt text was added to images 
 
 #### Links
-[Link to Deployed Website] (https://gisosa531.github.io/Horiseon-Services-Refactor-Webpage/Develop/index.html)
+![Link to Deployed Website] (https://gisosa531.github.io/Horiseon-Services-Refactor-Webpage/Develop/index.html)
 
-[link to GitHub Repository] (https://github.com/gisosa531/Horiseon-Services-Refactor-Webpage)
+![link to GitHub Repository] (https://github.com/gisosa531/Horiseon-Services-Refactor-Webpage)
 
 #### References
 * [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 ## Images
-! [Screenshot of Webpage] (./assets/images/01-html-css-git-homework-demo.png)
+![Screenshot of Webpage] (./Develop/assets/images/01-html-css-git-homework-demo.png)
