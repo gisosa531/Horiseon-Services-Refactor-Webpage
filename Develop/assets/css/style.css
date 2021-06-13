@@ -1,30 +1,40 @@
-/*Universal selector that applies to all elements on the page */ 
+/*Universal selector that applies styling to all elements on the page */ 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Element Styling that affects the background color of the Body */
 body {
     background-color: #d9dcd6;
 }
+/*An element that affects the link's font colors*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*An element that affects the paragraph's font size*/
+p {
+    font-size: 16px;
+}
 
+/*This is a class atribute that affects the Horiseon's Header element*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*This is an element class that affects the h1 headers*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*This is an element class that affects Horiseon's header to change its font color inside*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*An element class that affects the three links on the navigation bar's header*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +42,16 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*An element class that removes the marker from the list item element*/
 .header nav ul {
     list-style-type: none;
 }
-
+/*An element class that affects how the links are being displayed and  margin modified*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*An element class that affects the position and dimensions of the main image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +60,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*An element class that tells element to float left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*An element class that tells element to float right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*An element class that styles the content element*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*An element class that styles the description of benefits that floats to the right side of section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,23 +87,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*An element class that styles the description of benefits in article element*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*An element class that aligns the benefit's header in the center*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*An element class that styles the benefit's article images*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*An element class that styles the article service's section*/
 .bluebox {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,23 +112,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*An element class that styles the images from the article service's section */
 .bluebox img {
     max-height: 200px;
 }
-
+/*An element class that styles the header from the article service's section */
 .bluebox h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*An element class that styles the footer by not allowing floating elements on left of right*/ 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*An element class that styles the header's font size in the footer element*/
 .footer h2 {
     font-size: 20px;
 }
